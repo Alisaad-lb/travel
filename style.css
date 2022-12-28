@@ -1,15 +1,12 @@
 *{
   margin: 0;
   padding: 0;
-}
-#wrapHome{
-
+  box-sizing: border-box;
 }
 .mainNav{
     background-color: rgb(32, 31, 31);
     text-align: center;
-
-    padding: 30px;
+     padding: 30px;
     border: 3px solid gray;
     background-position: center;
     background-size: cover;
@@ -27,11 +24,6 @@
     font-weight: bold;
     height: 400px;
     text-shadow: 7px 7px 7px white;
-    
-    
-    
-    
-
 }
 .chef1{
     border: 6px solid gray;
@@ -71,18 +63,13 @@
         float: left;
      }
     
-
-
-
 table,th,td{
     border: 1px solid;
     margin: 10px auto;
-    padding: 30px;
-    /* border: 3px solid rgb(2, 2, 2); */
-    /* background-position: center; */
+    padding: 10px;
+  
     background-image:url("https://static.wixstatic.com/media/1afa76_3fd09eba7293479480c0197b190a33ba~mv2_d_4338_2440_s_4_2.jpg/v1/fill/w_1349,h_650,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1afa76_3fd09eba7293479480c0197b190a33ba~mv2_d_4338_2440_s_4_2.jpg");
-    /* background-attachment: fixed; */
-    /* text-align: center; */
+   
     font-weight: bold;
 
     
@@ -92,11 +79,14 @@ table,th,td{
             border-radius: 100%;
             width: 200px;
             height: 200px;
-            text-align: center;
-            margin: 10px 0px 0px 360px;
-            float: left;
+            border: 1px solid;
+            margin: 10px auto;
+            padding: 10px;
+            /* text-align: center; */
+            /* margin: 10px 0px 0px 360px; */
+            /* float: left; */
+            /* background-position: center; */
             background-image: url(https://miro.medium.com/max/700/1*87eRTdKQc9oytQd62KE6hQ.jpeg);
-            background-position: center;
     
      }
      .Norway{
@@ -104,12 +94,10 @@ table,th,td{
         border-radius: 100%;
         width: 200px;
         height: 200px;
-        text-align: center;
-        margin: 10px auto;
-        float: left;
+        border: 1px solid;
+    margin: 10px auto;
+    padding: 10px;
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ-ehZCeT09IDUgRWev31NmUwtCTMR-voxXQ&usqp=CAU);
-        background-position: center;
-    overflow-y: auto;
     
          }
          .Dubai{
@@ -117,29 +105,16 @@ table,th,td{
             border-radius: 100%;
             width: 200px;
             height: 200px;
-            text-align: center;
+            border: 1px solid;
             margin: 10px auto;
-            float: left;
+            padding: 10px;
             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYzCFYxKGQvYzeR-mpM0K93aPrzzfw4RMpdw&usqp=CAU);
-            background-position: center;
+            
              }
-                  form{
-                    margin: 50px 0px 0px 420px;
-                    font-size: large;
-                    float: center;
-                    border: 2px solid black;
-                    display: inline-block;
-                    width: 500px;
-                    height: 400px;
-                    
-                
-                    
-                    
-                
-                  }
                   form input {
                     width: 200px;
                     padding: 4px;
+                    
                 
                   }
                   label{
@@ -150,8 +125,13 @@ table,th,td{
                     
                   }
                   .submit{
-                   
-                     margin: 0px 0px 0px 150px; }
-                     .maleFemale{
-                        margin: 0 auto;
-                     }
+               padding: 5px;
+               margin-left: 160px;
+               width: 70px;
+               height: 30px;
+               font-size: medium;
+               }
+               
+           
+                     
+                 
